@@ -187,7 +187,7 @@ This sitemap provides links to all the web pages, which will be used in the next
 
 We scrapped the data from the sites Flipkart and Amazon, inspecting their pages for sitemaps
 
-![](RackMultipart20220507-1-iir91l_html_2b5c70104926c953.png)
+![test](/images_readme/1.png "1")
 
 ![](RackMultipart20220507-1-iir91l_html_438e687c6ad45a65.png)
 
