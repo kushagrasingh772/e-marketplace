@@ -1,6 +1,5 @@
-#
+<!-- #
 ## **E-Marketplace**
- ![Shape1](RackMultipart20220507-1-iir91l_html_237499165a11f2b9.gif)
 
 **Minor Project**
 
@@ -12,7 +11,7 @@ Submitted By
 
 **Kushagra Singh 9919103052**
 
-## **Yash Dixit 9919103055**
+**Yash Dixit 9919103055**
 
 Under Supervision of
 
@@ -87,49 +86,40 @@ This is to certify that the work titled &quot;E-Marketplace&quot; submitted by Y
 
 **Assistant Professor (Senior Grade)**
 
-Date: 1/12/2021
+Date: 1/12/2021 -->
 
-# ABSTRACT ![Shape5](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
-
+# ABSTRACT
 The objective of this project is to stimulate and represent real-world e-commerce problems and present their solution on a feasible scale. Initial steps included collection and organization of Raw data by creating a web scraper and extracting information through various concerned marketplaces websites, converting the quasi structured data into a more structured and definite form by using various data cleaning tools, and processing the filtered data for building our model.
 
 We made use of various tools for visualizing and analyzing the data and finding patterns and trends in our dataset. For training our model we used various advanced machine learning and deep learning algorithms for the achievement of higher accuracy of price prediction.
 
 Finally, for deploying our web application we used Python framework and libraries (Django/Flask) to project our model on a web application for providing a good user interface and reflecting the various trends in the e-commerce market.
 
-**TABLE OF CONTENTS**![Shape6](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
+**TABLE OF CONTENTS**
 
-_COVER PAGE 1_
 
-_ACKNOWLEDGEMENT 2_
+_ABSTRACT 1_
 
-_DECLARATION 3_
+_TABLE OF CONTENTS 2_
 
-_CERTIFICATE 4_
+_INTRODUCTION 3_
 
-_ABSTRACT 5_
+_BACKGROUND STUDY 4_
 
-_TABLE OF CONTENTS 6_
+_IMPLEMENTATION 5_
 
-_INTRODUCTION 7_
+_DEPENDENCIES AND REQUIREMENT ANALYSIS 6_
 
-_BACKGROUND STUDY 8-9_
+_DETAILED DESIGN 7_
 
-_IMPLEMENTATION 10_
+_CONCLUSION AND FUTURE SCOPE 8_
 
-_DEPENDENCIES AND REQUIREMENT ANALYSIS 11_
+_REFERENCES 9_
 
-_DETAILED DESIGN 12_
-
-_CONCLUSION AND FUTURE SCOPE 13_
-
-_REFERENCES 14_
-
-# INTRODUCTION ![Shape7](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
-
+# INTRODUCTION 
 This project is stimulation and the representation of the real world E-commerce problems and presentation of their solution on a feasible scale.
 
-This project is completely built from scratch and even the work comprising the data collection is also performed on our own using web scraping. This involves the collection and organization of raw data by creating a web scraper and extracting information through various concerned marketplaces&#39; websites.
+This project is completely built from scratch and even the work comprising the data collection is also performed on our own using web scraping. This involves the collection and organization of raw data by creating a web scraper and extracting information through various concerned marketplaces websites.
 
 For data collection, we have used various python libraries such as BeautifulSoup, Selenium, and Scrappy.
 
@@ -153,7 +143,7 @@ to get the idea of complete distribution using a heatmap.
 
 Finally, we integrated all of our work into the web framework using HTML, and CSS.
 
-**BACKGROUND STUDY**![Shape8](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
+**BACKGROUND STUDY**
 
 While building this project we have gained knowledge about some processes like Web Scraping, Exploratory Data Analysis, Data Cleaning tools used in python, . We also got insight about Machine learning and algorithms, we also touched on some concepts of Web Development as we have used Flask for our Frontend development.
 
@@ -187,39 +177,39 @@ This sitemap provides links to all the web pages, which will be used in the next
 
 We scrapped the data from the sites Flipkart and Amazon, inspecting their pages for sitemaps
 
-![test](/images_readme/1.jpg "1")
+![Flipkart_image](/images_readme/1.jpg "Flipkart") {align=center}
 
-![](RackMultipart20220507-1-iir91l_html_438e687c6ad45a65.png)
+![Sitemap](/images_readme/2.jpg "Sitemap")
 
 **For Sitemap:**
 
 **Amazon Interface:**
 
-![](RackMultipart20220507-1-iir91l_html_1e01cf64d33af22e.png)
+![Amazon_image](/images_readme/3.jpg "Amazon")
 
-![](RackMultipart20220507-1-iir91l_html_82d7da90662514cf.png)
+![Sitemap](/images_readme/4.jpg "Interface")
 
-1. **Data Cleaning and processing:** Data pre-processing is an often neglected but important step in the data mining process. The phrase &quot;Garbage In, Garbage Out&quot; is particularly applicable to data mining and machine learning. Data gathering methods are often loosely controlled, resulting in out-of-range values (e.g., Income: -100), impossible data combinations (e.g., Gender: Male, Pregnant: Yes), missing values, etc. Analyzing data that has not been carefully screened for such problems can produce misleading results. Thus, the representation and quality of data are first and foremost before running an analysis. In this paper, the sources of errors are identified and presented. The data cleaning and its methods are discussed.
+1. **Data Cleaning and processing:** Data pre-processing is an often neglected but important step in the data mining process. The phrase Garbage In, Garbage Out is particularly applicable to data mining and machine learning. Data gathering methods are often loosely controlled, resulting in out-of-range values (e.g., Income: -100), impossible data combinations (e.g., Gender: Male, Pregnant: Yes), missing values, etc. Analyzing data that has not been carefully screened for such problems can produce misleading results. Thus, the representation and quality of data are first and foremost before running an analysis. In this paper, the sources of errors are identified and presented. The data cleaning and its methods are discussed.
 
 **Data Before Cleaning:**
 
 **Amazon:**
 
-![](RackMultipart20220507-1-iir91l_html_ec208436a16d3c39.png)
+![Amazon_data](/images_readme/5.jpg "Amazon_Data")
 
 **Flipkart:**
 
-![](RackMultipart20220507-1-iir91l_html_c1d83cf9f60ef847.png)
+![Flipkart_data](/images_readme/6.jpg "Flipkart data")
 
 **Data After Cleaning:**
 
 **Amazon:**
 
-![](RackMultipart20220507-1-iir91l_html_5e18c3a6312bfe7b.png)
+![Cleaned_data_amazon](/images_readme/7.jpg "Cleaned")
 
 **Flipkart:**
 
-![](RackMultipart20220507-1-iir91l_html_1f4a79519217603f.png)
+![Cleaned_data_flipkart](/images_readme/8.jpg "Cleaned")
 
 1. **Exploratory Data Analysis** :
 
@@ -237,21 +227,23 @@ Usually, our multivariate EDA will be bivariate (looking at exactly two variable
 
 **TV dataset:**
 
-**Noise level count plot**![](RackMultipart20220507-1-iir91l_html_ce6295ce7be630c.png)
+**Noise level count plot**!
+[Count_plot](/images_readme/9.jpg "1st")
 
-![](RackMultipart20220507-1-iir91l_html_1f0b7e155325b1bd.png)
+![Count_plot](/images_readme/10.jpg "2nd")
 
 **Heatmap of size with budget**
 
-![](RackMultipart20220507-1-iir91l_html_207ed8c6293cb5b1.png)
+![Heatmap](/images_readme/11.jpg "Heatmap of size with budget")
 
 **Laptop Dataset:-**
 
-We have performed EDA on various specifications of different brands of laptops. ![](RackMultipart20220507-1-iir91l_html_872340d6bc7f4517.jpg)
+We have performed EDA on various specifications of different brands of laptops. 
+![Laptops](/images_readme/12.jpg "Laptop")
 
 **Brand price**
 
-![](RackMultipart20220507-1-iir91l_html_ab05238c6451c349.jpg)
+![Laptop_brand](/images_readme/13.jpg "Price")
 
 **Brand vs budget**
 
@@ -267,7 +259,7 @@ The acronym &quot;LASSO&quot; stands for **L** east **A** bsolute **S** hrinkage
 
 Lasso regression performs L1 [regularization](https://www.statisticshowto.com/regularization/), which adds a penalty equal to the[absolute value](https://www.statisticshowto.com/integer/#abs)of the magnitude of coefficients.This type of regularization can result in sparse models with few coefficients; Some coefficients can become zero and eliminated from the model. Larger penalties result in coefficient values closer to zero, which is the ideal for producing simpler models. On the other hand, L2 regularization (e.g. [Ridge regression](https://www.statisticshowto.com/ridge-regression/)) _doesn&#39;t_ result in elimination of coefficients or sparse models. This makes the Lasso far easier to interpret than the Ridge.
 
-![](RackMultipart20220507-1-iir91l_html_a924e0422eb7f9de.png)
+![Performing_Regression](/images_readme/1.jpg "Regression Ss")
 
 i**i) K-means Regressor:**K-means clustering as the name itself suggests, is a clustering algorithm, with no predetermined labels defined ,like we had for Linear Regression model, thus called as an Unsupervised Learning algorithm.
 
