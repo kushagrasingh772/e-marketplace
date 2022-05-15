@@ -158,7 +158,7 @@ For this project, we made use of several technology stacks, which required their
 
 Most websites define a robots.txt file to let crawlers know of any restrictions about crawling their website. These restrictions are just a suggestion but good web citizens will follow them. The robots.txt file is a valuable resource to check before crawling to minimize the chance of being blocked, and also to discover hints about a website&#39;s structure.
 
-### **1.2. Examining the Sitemap**
+**1.2.** **Examining the Sitemap**
 
 Sitemap files are provided by websites to help crawlers locate their updated content without needing to crawl every web page. For further details, the sitemap standard is defined at [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html). Here is the content of the Sitemap file discovered in the robots.txt file:
 
@@ -284,7 +284,7 @@ Lasso regression performs L1 [regularization](https://www.statisticshowto.com/re
 
 ![Performing_Regression](/images_readme/14.jpg "Regression Ss")
 
-i**i) K-means Regressor:**K-means clustering as the name itself suggests, is a clustering algorithm, with no predetermined labels defined ,like we had for Linear Regression model, thus called as an Unsupervised Learning algorithm.
+**i) K-means Regressor:**K-means clustering as the name itself suggests, is a clustering algorithm, with no predetermined labels defined ,like we had for Linear Regression model, thus called as an Unsupervised Learning algorithm.
 
 ## **Logic and working:** K-means simply partitions the given dataset into various clusters(groups) with different features.
 
@@ -306,7 +306,7 @@ There is no exact way of determining the perfect value of K(total number of clus
 
 Using k-means, the data is clustered after analyzing the data and not primitively defining it under a group based on pre-defined labels. Each centroid is a collection of features that essentially represent the type of cluster it belongs to. Thus a centroid can be used to interpret the type of cluster formed.
 
-i**ii) XGBoost Regressor:**
+**ii) XGBoost Regressor:**
 
 Extreme Gradient Boosting (XGBoost) is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm.
 
@@ -330,9 +330,8 @@ Hypertext Markup Language and CSS (Cascading Style Sheets) are two of the core t
 
 What is CSS? CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.
 
-**IMPLEMENTATION**
+**IMPLEMENTATION:**
 
-![Shape9](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
 
 - Collection and organization of Raw data by creating a web scraper and extracting information through various concerned marketplaces websites.
 - Web Scraping was performed on Flipkart and amazon to collect the raw data.
@@ -378,7 +377,7 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 
 ![](RackMultipart20220507-1-iir91l_html_fa8752483c22c5f.png)
 
-**DEPENDENCIES AND REQUIREMENTS ANALYSIS**![Shape10](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
+**DEPENDENCIES AND REQUIREMENTS ANALYSIS**
 
 | **Beautiful Soup** | It is a [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) package for parsing [HTML](https://en.wikipedia.org/wiki/HTML) and [XML](https://en.wikipedia.org/wiki/XML) documents (including having malformed markup, i.e. non-closed tags, so named after [tag soup](https://en.wikipedia.org/wiki/Tag_soup)). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for [web scraping](https://en.wikipedia.org/wiki/Web_scraping). |
 | --- | --- |
@@ -390,11 +389,9 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 | **XGBoost** | XGBoost is an open-source software library that provides a regularizing gradient boosting framework for C++, Java, Python, R, Julia, Perl, and Scala. It works on Linux, Windows, and macOS. |
 | **Beautiful Soup** | Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping. |
 
-Table 1.0 (Python Dependencies)
 
 **DETAILED DESIGN**
 
-![Shape11](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
 
 ![Detailed_Design](/images_readme/24.jpg "Detailed Design")
 
@@ -414,9 +411,9 @@ The project started with the collection of the datasets and cleaning.
 
 1. **Building Web Application** : Making use of Python framework and libraries (Django/Flask) to project our model on a web application for proving a good user interface and reflecting the various trends in the e-commerce market.
 
-**CONCLUSION AND FUTURE SCOPE**
 
-![Shape12](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
+**CONCLUSION AND FUTURE SCOPE:**
+
 
 This project is stimulation and the representation of the real world E-commerce problems and presentation of their solution on a feasible scale.
 
@@ -429,15 +426,17 @@ that requires the visualization of the data and making proper predictions for th
 #
 
 
-# REFERENCES ![Shape13](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
+# REFERENCES 
 
-**Websites Scraped**** :**
+**Websites Scraped**:
 
 1. [_https://www.amazon.com_](https://www.amazon.com/)
-2. [_https://www.flipkart.com_](https://www.flipkart.com/)
-3. _https://www.olx.in_
 
-**Study Material**** :**
+2. [_https://www.flipkart.com_](https://www.flipkart.com/)
+
+3. [_https://www.olx.in_](https://www.olx.in/)
+
+**Study Material:**
 
 **Books:**
 
