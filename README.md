@@ -95,6 +95,7 @@ We made use of various tools for visualizing and analyzing the data and finding 
 
 Finally, for deploying our web application we used Python framework and libraries (Django/Flask) to project our model on a web application for providing a good user interface and reflecting the various trends in the e-commerce market.
 
+
 **TABLE OF CONTENTS**
 
 
@@ -115,6 +116,7 @@ _DETAILED DESIGN 7_
 _CONCLUSION AND FUTURE SCOPE 8_
 
 _REFERENCES 9_
+
 
 # INTRODUCTION 
 This project is stimulation and the representation of the real world E-commerce problems and presentation of their solution on a feasible scale.
@@ -142,6 +144,7 @@ We analyzed and visualized the areas with a higher concentration of frequency
 to get the idea of complete distribution using a heatmap.
 
 Finally, we integrated all of our work into the web framework using HTML, and CSS.
+
 
 **BACKGROUND STUDY**
 
@@ -177,41 +180,59 @@ This sitemap provides links to all the web pages, which will be used in the next
 
 We scrapped the data from the sites Flipkart and Amazon, inspecting their pages for sitemaps
 
-![Flipkart_image](/images_readme/1.jpg "Flipkart") {align=center}
+![Flipkart_image](/images_readme/1.jpg "Flipkart") 
+
 
 ![Sitemap](/images_readme/2.jpg "Sitemap")
 
+
 **For Sitemap:**
+
 
 **Amazon Interface:**
 
+
 ![Amazon_image](/images_readme/3.jpg "Amazon")
+
 
 ![Sitemap](/images_readme/4.jpg "Interface")
 
+
 1. **Data Cleaning and processing:** Data pre-processing is an often neglected but important step in the data mining process. The phrase Garbage In, Garbage Out is particularly applicable to data mining and machine learning. Data gathering methods are often loosely controlled, resulting in out-of-range values (e.g., Income: -100), impossible data combinations (e.g., Gender: Male, Pregnant: Yes), missing values, etc. Analyzing data that has not been carefully screened for such problems can produce misleading results. Thus, the representation and quality of data are first and foremost before running an analysis. In this paper, the sources of errors are identified and presented. The data cleaning and its methods are discussed.
+
 
 **Data Before Cleaning:**
 
+
 **Amazon:**
+
 
 ![Amazon_data](/images_readme/5.jpg "Amazon_Data")
 
+
 **Flipkart:**
+
 
 ![Flipkart_data](/images_readme/6.jpg "Flipkart data")
 
+
 **Data After Cleaning:**
+
 
 **Amazon:**
 
+
 ![Cleaned_data_amazon](/images_readme/7.jpg "Cleaned")
+
 
 **Flipkart:**
 
+
 ![Cleaned_data_flipkart](/images_readme/8.jpg "Cleaned")
 
+
 1. **Exploratory Data Analysis** :
+
 
 Exploratory data analysis or &quot;EDA&quot; is a critical first step in analyzing the data from an experiment. Here are the main reasons we use EDA: • detection of mistakes • checking of assumptions • preliminary selection of appropriate models • determining relationships among the explanatory variables, and • assessing the direction and rough size of relationships between explanatory and outcome variables. Loosely speaking, any method of looking at data that does not include formal statistical modelling and inference falls under the term exploratory data analysis.
 
@@ -227,8 +248,9 @@ Usually, our multivariate EDA will be bivariate (looking at exactly two variable
 
 **TV dataset:**
 
-**Noise level count plot**!
-[Count_plot](/images_readme/9.jpg "1st")
+**Noise level count plot**
+
+![Count_plot](/images_readme/9.jpg "1st")
 
 ![Count_plot](/images_readme/10.jpg "2nd")
 
@@ -239,6 +261,7 @@ Usually, our multivariate EDA will be bivariate (looking at exactly two variable
 **Laptop Dataset:-**
 
 We have performed EDA on various specifications of different brands of laptops. 
+
 ![Laptops](/images_readme/12.jpg "Laptop")
 
 **Brand price**
@@ -259,7 +282,7 @@ The acronym &quot;LASSO&quot; stands for **L** east **A** bsolute **S** hrinkage
 
 Lasso regression performs L1 [regularization](https://www.statisticshowto.com/regularization/), which adds a penalty equal to the[absolute value](https://www.statisticshowto.com/integer/#abs)of the magnitude of coefficients.This type of regularization can result in sparse models with few coefficients; Some coefficients can become zero and eliminated from the model. Larger penalties result in coefficient values closer to zero, which is the ideal for producing simpler models. On the other hand, L2 regularization (e.g. [Ridge regression](https://www.statisticshowto.com/ridge-regression/)) _doesn&#39;t_ result in elimination of coefficients or sparse models. This makes the Lasso far easier to interpret than the Ridge.
 
-![Performing_Regression](/images_readme/1.jpg "Regression Ss")
+![Performing_Regression](/images_readme/14.jpg "Regression Ss")
 
 i**i) K-means Regressor:**K-means clustering as the name itself suggests, is a clustering algorithm, with no predetermined labels defined ,like we had for Linear Regression model, thus called as an Unsupervised Learning algorithm.
 
@@ -293,13 +316,13 @@ Regression predictive modeling problems involve predicting a numerical value suc
 
 Working of XGBoost Regressor has been depicted by the below diagram.
 
-![](RackMultipart20220507-1-iir91l_html_6eec1b73d2afba8d.png)
+![XG_BOOST_WORKING](/images_readme/15.jpg "XG Boost Regressor")
 
 1. **Flask:**
 
 Flask stands out from other frameworks because it lets developers take the driver&#39;s seat and have full creative control of their applications. The key to this freedom is that Flask was designed from the start to be extended. It comes with a robust core that includes the basic functionality that all web applications need and expects the rest to be provided by some of the many third-party extensions in the ecosystem and, of course, by you. Flask is a small framework by most standards, small enough to be called a &quot;microframework.&quot; It is small enough that once you become familiar with it, you will likely be able to read and understand all of its source code. But being small does not mean that it does less than other frameworks. Flask was de‐ signed as an extensible framework from the ground up; it provides a solid core with the basic services, while extensions provide the rest. Because you can pick and choose the extension packages that you want, you end up with a lean stack that has no bloat and does exactly what you need. Flask has two main dependencies. The routing, debugging, and Web Server Gateway Interface (WSGI) subsystems come from Werkzeug, while template support is provided by Jinja2. Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks. Flask offers suggestions, but doesn&#39;t enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
 
-![](RackMultipart20220507-1-iir91l_html_43546e4a5642244e.png)
+![Flask](/images_readme/16.jpg "Flask")
 
 **6) HTML CSS:**
 
@@ -316,11 +339,11 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 
 **DATA BEFORE CLEANING**
 
-![](RackMultipart20220507-1-iir91l_html_ec208436a16d3c39.png)
+![Data_before_cleaning](/images_readme/17.jpg "Before Cleaning")
 
 **DATA AFTER CLEANING**
 
-![](RackMultipart20220507-1-iir91l_html_ec95b329b4cf71f3.png)
+![Data_after_cleaning](/images_readme/18.jpg "After Cleaning")
 
 - Converting the quasi-structured data into a more structured and definite form by using various data cleaning tools.
 
@@ -329,27 +352,27 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 
 **Data Visualisation**
 
-![](RackMultipart20220507-1-iir91l_html_9f1ce005e3232924.png)
+![Data_Visualization](/images_readme/19.jpg "Visualization")
 
 - Making use of various tools for visualizing and analyzing the data and finding patterns and trends in our dataset.
 
 - Training our model using various advanced machine learning and deep learning algorithms for the achievement of higher accuracy of price prediction.
 
-![](RackMultipart20220507-1-iir91l_html_11fa993d2830ef34.png)
+![Box](/images_readme/20.jpg "Box plot")
 
 **REPRESENTING THE MODEL ON WEB FRAMEWORK**
 
-![](RackMultipart20220507-1-iir91l_html_f5763e934475d510.png)
+![Web_Layout](/images_readme/21.jpg "Web Layout")
 
 - Using HTML , CSS and Javascript to design the home page and the integrate all our work done till now in the web framework.
 
 - Making use of Python framework and libraries (Django/Flask) to project our model on a web application for proving a good user interface and reflecting the various trends in the e-commerce market.
 
-![](RackMultipart20220507-1-iir91l_html_73ce49c76a4540b4.png)
+![Laptop_EDA](/images_readme/22.jpg "Laptop EDA")
 
 **PRICE PREDICTION MODEL**
 
-![](RackMultipart20220507-1-iir91l_html_f88cec511fb3e119.png)
+![Price_prediction](/images_readme/23.jpg "Predict Price")
 
 **EXPLORATORY DATA ANALYSIS**
 
@@ -373,7 +396,7 @@ Table 1.0 (Python Dependencies)
 
 ![Shape11](RackMultipart20220507-1-iir91l_html_d3dfebf0caf3fa8f.gif)
 
-![](RackMultipart20220507-1-iir91l_html_b1fa08b49167bc90.png)
+![Detailed_Design](/images_readme/24.jpg "Detailed Design")
 
 The entire project comprises three major parts namely the dataset, models, and web design.
 
