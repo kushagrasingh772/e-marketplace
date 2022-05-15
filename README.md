@@ -88,6 +88,46 @@ This is to certify that the work titled &quot;E-Marketplace&quot; submitted by Y
 
 Date: 1/12/2021 -->
 
+<!-- PROJECT NAME -->
+<div align="center">
+  <h1 align="center">e-Marketplace</h1>
+  <p align="center">
+    <!-- <a href="https://priyam-anand.github.io/D-Med"/>View Demo</a> -->
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<h2>TABLE OF CONTENTS</h2>
+<ol>
+    <li>
+        <a href="#ABSTRACT"> Abstract </a>
+    </li>
+    <li>
+        <a href="#INTRODUCTION"> Introduction </a>
+    </li>
+    <li>
+        <a href="#BACKGROUND STUDY"> Background Study </a>
+    </li>
+    <li>
+        <a href="#IMPLEMENTATION"> Implementation </a>
+    </li>
+    <li>
+        <a href="#DEPENDENCIES AND REQUIREMENT ANALYSIS"> Dependencies and requirement analysis </a>
+    </li>
+    <li>
+        <a href="#DETAILED DESIGN"> Detailed Design </a>
+    </li>
+    <li>
+        <a href="#CONCLUSION AND FUTURE SCOPE"> Conclusion and Future scope </a>
+    </li>
+    <li>
+        <a href="#REFERENCES"> References </a>
+    </li>
+</ol>
+
+<!-- ABSTRACT -->
+<a id="ABSTRACT"></a>
+
 # ABSTRACT
 The objective of this project is to stimulate and represent real-world e-commerce problems and present their solution on a feasible scale. Initial steps included collection and organization of Raw data by creating a web scraper and extracting information through various concerned marketplaces websites, converting the quasi structured data into a more structured and definite form by using various data cleaning tools, and processing the filtered data for building our model.
 
@@ -96,27 +136,8 @@ We made use of various tools for visualizing and analyzing the data and finding 
 Finally, for deploying our web application we used Python framework and libraries (Django/Flask) to project our model on a web application for providing a good user interface and reflecting the various trends in the e-commerce market.
 
 
-**TABLE OF CONTENTS**
-
-
-_ABSTRACT 1_
-
-_TABLE OF CONTENTS 2_
-
-_INTRODUCTION 3_
-
-_BACKGROUND STUDY 4_
-
-_IMPLEMENTATION 5_
-
-_DEPENDENCIES AND REQUIREMENT ANALYSIS 6_
-
-_DETAILED DESIGN 7_
-
-_CONCLUSION AND FUTURE SCOPE 8_
-
-_REFERENCES 9_
-
+<!-- INTRODUCTION -->
+<a id="INTRODUCTION"></a>
 
 # INTRODUCTION 
 This project is stimulation and the representation of the real world E-commerce problems and presentation of their solution on a feasible scale.
@@ -146,6 +167,9 @@ to get the idea of complete distribution using a heatmap.
 Finally, we integrated all of our work into the web framework using HTML, and CSS.
 
 
+<!-- BACKGROUND STUDY -->
+<a id="BACKGROUND STUDY"></a>
+
 **BACKGROUND STUDY**
 
 While building this project we have gained knowledge about some processes like Web Scraping, Exploratory Data Analysis, Data Cleaning tools used in python, . We also got insight about Machine learning and algorithms, we also touched on some concepts of Web Development as we have used Flask for our Frontend development.
@@ -160,7 +184,7 @@ Most websites define a robots.txt file to let crawlers know of any restrictions 
 
 **1.2.** **Examining the Sitemap**
 
-Sitemap files are provided by websites to help crawlers locate their updated content without needing to crawl every web page. For further details, the sitemap standard is defined at [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html). Here is the content of the Sitemap file discovered in the robots.txt file:
+Sitemap files are provided by websites to help crawlers locate their updated content without needing to crawl every web page. For further details, the sitemap standard is defined at [http://www.sitemaps.org/protocol.html](http://www.sitemaps.org/protocol.html). Here is the content of the Sitemap file discovered in the **robots.txt file**:
 
 \&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?\&gt;
 
@@ -330,6 +354,9 @@ Hypertext Markup Language and CSS (Cascading Style Sheets) are two of the core t
 
 What is CSS? CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language. The separation of HTML from CSS makes it easier to maintain sites, share style sheets across pages, and tailor pages to different environments. This is referred to as the separation of structure (or: content) from presentation.
 
+<!-- IMPLEMENTATION -->
+<a id="IMPLEMENTATION"></a>
+
 **IMPLEMENTATION:**
 
 
@@ -377,6 +404,9 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 
 ![](RackMultipart20220507-1-iir91l_html_fa8752483c22c5f.png)
 
+<!-- DEPENDENCIES -->
+<a id="DEPENDENCIES AND REQUIREMENT ANALYSIS"></a>
+
 **DEPENDENCIES AND REQUIREMENTS ANALYSIS**
 
 | **Beautiful Soup** | It is a [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) package for parsing [HTML](https://en.wikipedia.org/wiki/HTML) and [XML](https://en.wikipedia.org/wiki/XML) documents (including having malformed markup, i.e. non-closed tags, so named after [tag soup](https://en.wikipedia.org/wiki/Tag_soup)). It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for [web scraping](https://en.wikipedia.org/wiki/Web_scraping). |
@@ -389,6 +419,9 @@ What is CSS? CSS is the language for describing the presentation of Web pages, i
 | **XGBoost** | XGBoost is an open-source software library that provides a regularizing gradient boosting framework for C++, Java, Python, R, Julia, Perl, and Scala. It works on Linux, Windows, and macOS. |
 | **Beautiful Soup** | Beautiful Soup is a Python package for parsing HTML and XML documents. It creates a parse tree for parsed pages that can be used to extract data from HTML, which is useful for web scraping. |
 
+
+<!-- DETAILED DESIGN -->
+<a id="DETAILED DESIGN"></a>
 
 **DETAILED DESIGN**
 
@@ -425,6 +458,9 @@ that requires the visualization of the data and making proper predictions for th
 
 #
 
+
+<!-- REFERENCES -->
+<a id="REFERENCES"></a>
 
 # REFERENCES 
 
